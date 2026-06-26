@@ -25,8 +25,8 @@ kubectl config use-context kind-kind
 kubectl apply -f .infrastructure/namespace.yml
 kubectl apply -f .infrastructure/metrics-server.yml
 kubectl apply -f .infrastructure/deployment.yml
-kubectl apply -f .infrastructure/cluster-ip.yml
-kubectl apply -f .infrastructure/node-port.yml
+kubectl apply -f .infrastructure/clusterIp.yml
+kubectl apply -f .infrastructure/nodeport.yml
 kubectl apply -f .infrastructure/hpa.yml
 ```
 
