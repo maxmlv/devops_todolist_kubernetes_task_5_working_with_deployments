@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: todoapp-standalone
+  name: todoapp
   namespace: mateapp
   labels:
-    app: todoapp-standalone
+    app: todoapp
 spec:
   containers:
   - name: todoapp
